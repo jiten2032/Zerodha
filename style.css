@@ -1,0 +1,82 @@
+#navitems{margin-left: auto;}
+.nav-item{margin-left: 25px;}
+#navlinkcolor:hover{
+    color: blue;
+    transition: .5s;
+}
+#buttomcolor:hover{background-color: black;}
+#menu-area{
+    position: static;
+}
+#mega-area{
+position: absolute;
+width: 50%;
+margin-left:650px ;
+
+
+}
+.dropdownitem{
+    text-decoration: none;
+color: darkolivegreen;
+
+
+
+}
+#mega-area li{
+    list-style-type: none;
+    
+}
+#mega-area h5{
+margin-left:35px ;
+}
+#dropdownbar{
+    margin-top: 30px;
+   
+ 
+}
+#lastdropdown{
+    margin-top: 35px;
+}
+/* end of navbar */
+#body1button:hover{
+    background-color: black;
+}
+/* end of body1 */
+#body2-li li{
+
+flex-wrap: wrap;
+    padding: 8px;
+}
+/* end of body2 */
+#body3a:hover{
+
+    color: black;
+}
+/* end of body3 */
+/* end of body4 */
+/* end of body5 */
+/* end of body6 */
+.card-link{
+    text-decoration: none;
+}
+#footer li{
+list-style-type: none;
+
+}
+#footer h5{
+margin-left: 25px;
+
+}
+#footer li a{
+    color: dimgray;
+  font-weight: light;
+}
+#footer li a:hover{
+    color: blue;
+}
+#lastfooter a{
+    text-decoration: none;
+    padding: 10px;
+    color: dimgray;
+    font-size: 13px;
+}
