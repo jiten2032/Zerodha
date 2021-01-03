@@ -80,3 +80,19 @@ margin-left: 25px;
     color: dimgray;
     font-size: 13px;
 }
+
+/* About.html */
+
+#links{
+   text-decoration: none;
+}
+#links:hover{
+    color: black;
+}
+#dropdownMenuLink{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+#dropdownMenuLink:hover{
+    color: black;
+}
