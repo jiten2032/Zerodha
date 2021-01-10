@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Product</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light ">
+        <div class="container">
+            <a class="navbar-brand nav-link active" href="#">
+                <img src="Images/logo.svg" alt="" width="130" height="40" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mymenu"
+                aria-controls="mymenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mymenu">
+                <ul class="navbar-nav" id="navitems">
+
+                    <li class="nav-item"><a href="#" class="nav-link" id="navlinkcolor">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active" id="navlinkcolor">Product</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="navlinkcolor">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="navlinkcolor">Support</a></li>
+                    <li class="nav-item"> <button class="btn btn-primary " type="button" id="buttomcolor">Sign
+                            up</button></li>
+                </ul>
+            </div>
+
+            <div class="nav-item dropdown d-none d-xxl-block d-xl-block d-md-block " id="menu-area">
+                <button type="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i style='font-size:19px' class='fas '>&#xf0c9;</i>
+                </button>
+
+                <div class="dropdown-menu  " id="mega-area" aria-labelledby="navbarDropdown">
+                    <div class="row">
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/kite-logo.svg" alt="" width="40"
+                                            height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">Kite</a></li>
+                                <li><a class="dropdownitem" href="#">Trading Platform</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/console.svg" alt="" width="40"
+                                            height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">console</a></li>
+                                <li><a class="dropdownitem" href="#">Backoffice</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/kite-connect.svg" alt=""
+                                            width="40" height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">Kite Connect</a></li>
+                                <li><a class="dropdownitem" href="#">Trading APIs</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/coin.svg" alt="" width="40"
+                                            height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">Coin</a></li>
+                                <li><a class="dropdownitem" href="#">Mutual funds</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="dropdownbar">
+                        <div class="col-3">
+                            <h5>Utilities</h5>
+                            <ul>
+                                <li><a class="dropdownitem" href="">Brerage calculator</a></li>
+                                <li><a class="dropdownitem" href="">Margin calculator</a></li>
+                                <li><a class="dropdownitem" href="">Holiday calender</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h5>Updates</h5>
+                            <ul>
+                                <li><a class="dropdownitem" href="">Z-Connect blog</a></li>
+                                <li><a class="dropdownitem" href="">Pulse News</a></li>
+                                <li><a class="dropdownitem" href="">Circulars/Bulletin</a></li>
+                                <li> <a class="dropdownitem" href="">IPOs</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h5>Education</h5>
+                            <ul>
+                                <li><a class="dropdownitem" href="#"><img src="Images/varsity.png" alt="" width=""
+                                            height=""> </a></li>
+                                <li><a class="dropdownitem" href="">varsity</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3" id="lastdropdown">
+                            <ul>
+                                <li><a class="dropdownitem" href="#"><img src="Images/tqna.png" alt="" width=""
+                                            height=""> </a></li>
+                                <li><a class="dropdownitem" href="">Trading Q & A</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="container text-center " style="margin-top:80px;">
+        <h1 class="text-center " style="color:rgb(66,66,66);font-size:45px">
+            Technology </h1>
+        <h5 class="mt-3 fs-5 fw-normal">
+            Sleek, modern, and intuitive trading platforms
+        </h5>
+        <p class="mt-4 " style="font-size:17px">Check out our
+            <span><a href=""> investment offerings
+                    <i class="material-icons" style="font-size:17px;color:blue">arrow_forward</i>
+                </a> </span>
+        </p>
+
+    </div>
+
+    <hr class="container fw-lighter" style="margin-top:130px">
+
+    <!-- end of body 1 -->
+    <div class="justify-content-evenly d-flex container flex-wrap mt-5 ">
+        <div>
+            <img class="img img-fluid" src="Images/products-kite.png" alt="" width="" height="" srcset="">
+
+        </div>
+        <div class="mt-5">
+            <h5 class=" fs-2 text-body">Kite</h5>
+            <p style="font-size: 17px;margin-top: 30px;line-height: 30px;">Our ultra-fast flagship trading platform with
+                <br> streaming market data, advanced charts, an<br>
+                elegant UI, and more. Enjoy the Kite <br>
+                experience seamlessly on your Android and <br>
+                iOS devices.
+            </p>
+            <a href="" id="productLinks" class="link-primary fw-normal">Learn more
+                <i class="material-icons" style="font-size:17px;color:blue">arrow_forward</i>
+            </a>
+            <p class="mt-4">
+                <img src="Images/google-play-badge.svg" class="img img-fluid" alt="" srcset="">
+                <img src="Images/appstore-badge.svg" class="img img-fluid ms-3" alt="" srcset="">
+            </p>
+
+
+        </div>
+    </div>
+    <!-- end of body 2 -->
+    <div class="justify-content-evenly d-flex container flex-wrap" style="margin-top:90px">
+
+        <div class="mt-5">
+            <h1 class=" fs-2 text-body ">Console</h1>
+            <p style="font-size: 17px;margin-top: 30px;line-height: 30px;">The central dashboard for your Zerodha
+                <br> account. Gain insights into your trades and<br>
+                investments with in-depth reports and <br>
+                visualisations.
+
+            </p>
+            <a href="" id="productLinks">Learn more
+                <i class="material-icons" style="font-size:17px;color:blue">arrow_forward</i>
+            </a>
+
+
+        </div>
+        <div class="text-center">
+            <img class="img img-fluid" src="Images/products-console.png" alt="" width="" height="" srcset="">
+
+        </div>
+    </div>
+    <!-- end of body 3 -->
+    <div class="justify-content-evenly d-flex container flex-wrap" style="margin-top:90px">
+        <div class="text-center">
+            <img class="img img-fluid" src="Images/products-coin.png" alt="" width="" height="" srcset="">
+
+        </div>
+        <div class="mt-5">
+            <h5 class="fs-2 text-body">Coin</h5>
+            <p style="font-size: 17px;margin-top: 30px;line-height: 30px;">Buy direct mutual funds online, commission-
+                <br> free, delivered directly to your Demat<br>
+                account. Enjoy the investment experience <br>
+                on your Android and iOS devices.
+            </p>
+            <a href="" id="productLinks">Coin
+                <i class="material-icons" style="font-size:17px;color:blue">arrow_forward</i>
+            </a>
+            <p class="mt-4">
+                <img src="Images/google-play-badge.svg" class="img img-fluid" alt="" srcset="">
+                <img src="Images/appstore-badge.svg" class="img img-fluid ms-3" alt="" srcset="">
+            </p>
+
+
+        </div>
+    </div>
+    <!-- end of body 4 -->
+    <div class="justify-content-evenly d-flex container flex-wrap" style="margin-top:90px">
+
+        <div class="mt-5">
+            <h5 class=" fs-2 text-body ">Kite Connect API</h5>
+            <p style="font-size: 17px;margin-top: 30px;line-height: 30px;">Build powerful trading platforms and
+                <br>experiences with our super simple<br>
+                HTTP/JSON APIs. If you are a startup, build <br>
+                your investment app and showcase it to our <br>
+                clientbase.
+
+            </p>
+            <a href="" id="productLinks">Kite Connect
+                <i class="material-icons" style="font-size:17px;color:blue">arrow_forward</i>
+            </a>
+
+
+        </div>
+        <div class="text-center">
+            <img class="img img-fluid" src="Images/products-kiteconnect.png" alt="" width="" height="" srcset="">
+
+        </div>
+    </div>
+    <!-- end of body 5 -->
+    <div class="justify-content-evenly d-flex container flex-wrap" style="margin-top:90px">
+        <div class="text-center">
+            <img class="img img-fluid" src="Images/varsity-products.png" alt="" width="" height="" srcset="">
+
+        </div>
+        <div style="margin-top: 120px;">
+            <h5 class="text-body fs-2 ">Varsity mobile</h5>
+            <p style="font-size: 17px;margin-top: 30px;line-height:30px;">An easy to grasp, collection of stock market
+                <br> lessons with in-depth coverage and<br>
+                illustrations. Content is broken down into<br>
+                bite-size cards to help you learn on the go.
+            </p>
+
+            <p class="mt-5">
+                <img src="Images/google-play-badge.svg" class="img img-fluid" alt="" srcset="">
+                <img src="Images/appstore-badge.svg" class="img img-fluid ms-3" alt="" srcset="">
+            </p>
+
+
+        </div>
+    </div>
+    <!-- end of body 6 -->
+    <div class="justify-content-evenly d-flex container flex-wrap" style="margin-top:90px">
+
+        <div style="margin-top: 90px;">
+            <h5 class="text-body fs-2">Sentinel</h5>
+            <p style="font-size: 17px;margin-top: 30px;line-height: 30px;">Create powerful market alerts on the cloud
+                <br>for stocks, futures and options, and more for<br>
+                free.
+            </p>
+            <a href="" id="productLinks">Sentinel
+                <i class="material-icons" style="font-size:17px;color:blue">arrow_forward</i>
+            </a>
+
+
+        </div>
+        <div class="text-center">
+            <img class="img img-fluid" src="Images/sentinel-products.png" alt="" width="" height="" srcset="">
+
+        </div>
+    </div>
+    <!-- end of body 7 -->
+    <h5 class="mt-5 text-center text-body fw-normal fs-4 ">Want to know more about our technology stack? Check out the
+        <span><a href="">Zerodha.tech</a></span> blog.
+    </h5>
+
+    <!-- for large & above devices -->
+    <div class="container text-center d-none d-xl-block d-lg-block d-xxl-block" style="margin-top:100px">
+        <h5 class="fs-2">The Zerodha Universe</h5>
+        <p class="mt-4" style="font-size: 18px;">Extend your trading and investment experience even further with our
+            partner platforms</p>
+        <div class="d-flex mt-5" id="ProductImg">
+
+            <div>
+                <a href=""><img class="img img-fluid" src="Images/smallcase-logo.png" height="180px" width="180px"
+                        alt="" srcset=""></a>
+                <p class="mt-2"><a href="" class="text-muted"> Thematic investment platform </a></p>
+            </div>
+            <div>
+                <a href=""><img class="img img-fluid" src="Images/streak-logo.png" height="160px" width="160px" alt=""
+                        srcset=""></a>
+                <p class="mt-2"><a href="" class="text-muted"> algo & stratergy platform </a></p>
+            </div>
+            <div>
+                <a href=""><img class="img img-fluid" src="Images/sensibull-logo.svg" height="150px" width="150px"
+                        alt="" srcset=""></a>
+                <p class="mt-2"> <a href="" class="text-muted">Option trading platform </a></p>
+            </div>
+            <div>
+                <a href=""><img class="img img-fluid" src="Images/goldenpi-logo.png" height="180px" width="180px" alt=""
+                        srcset=""></a>
+                <p class="mt-2"><a href="" class="text-muted"> Bonds trading platform </a></p>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-5 fs-4 " id="productbtn">Sign up now</button>
+    </div>
+
+    <!-- for small devices -->
+    <div class="container-fluid d-sm-block d-md-block d-lg-none" style="margin-top:100px">
+        <h5 class="fs-2 text-center ">The Zerodha Universe</h5>
+        <p class="mt-4 text-center " style="font-size: 18px;">Extend your trading and investment experience even further
+            with our
+            partner platforms</p>
+        <div class="d-flex justify-content-around mt-5">
+            <div>
+                <div>
+                    <a href=""><img class="img img-fluid" src="Images/smallcase-logo.png" height="180px" width="180px"
+                            alt="" srcset=""></a>
+                    <p class="mt-2"><a href="" class="text-muted"> Thematic investment platform </a></p>
+                </div>
+                <div>
+                    <a href=""><img class="img img-fluid" src="Images/streak-logo.png" height="160px" width="160px"
+                            alt="" srcset=""></a>
+                    <p class="mt-2"><a href="" class="text-muted"> algo & stratergy platform </a></p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <a href=""><img class="img img-fluid" src="Images/sensibull-logo.svg" height="150px" width="150px"
+                            alt="" srcset=""></a>
+                    <p class="mt-2"> <a href="" class="text-muted">Option trading platform </a></p>
+                </div>
+                <div>
+                    <a href=""><img class="img img-fluid" src="Images/goldenpi-logo.png" height="180px" width="180px"
+                            alt="" srcset=""></a>
+                    <p class="mt-2"><a href="" class="text-muted"> Bonds trading platform </a></p>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-5 fs-4 d-block mx-auto" id="productbtn">Sign up now</button>
+    </div>
+
+    <!-- end of body 8  -->
+    <div class="container-fluid bg-light mt-5">
+        <div class="container d-flex flex-wrap justify-content-evenly">
+
+            <div class="mt-5">
+                <img src="Images/logo.svg" class="" width="140" height="18" alt="">
+                <h5 class=" mt-3">
+                    <i class="material-icons">&#xe0b0;</i>
+                    +91 80 4718 1888
+                </h5>
+                <p class="mt-3">© 2010 - 2020, Zerodha Broking Ltd. <br>
+
+                    All rights reserved.</p>
+                <div>
+                    <a href=""><i style='font-size:24px;padding: 15px;' class='fab'>&#xf099;</i></a>
+                    <a href=""></a> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf082;</i></a>
+                    <a href=""> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf16d;</i></a>
+                    <a href=""> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf0e1;</i></a>
+                    <a href=""> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf2c6;</i></a>
+
+                </div>
+
+            </div>
+            <div class="mt-5" id="footer">
+                <h5 class="fs-5 fw-normal">Company</h5>
+                <ul class="mt-3">
+                    <li><a href="#" class="card-link ">Contact</a></li>
+                    <li> <a href="#" class="card-link ">Support Portal</a></li>
+                    <li> <a href="#" class="card-link ">Z-Connect blog</a></li>
+                    <li> <a href="#" class="card-link ">List of charghes</a></li>
+                    <li> <a href="#" class="card-link ">Download & resources</a></li>
+                    <li> <a href="#" class="card-link ">Videos</a></li>
+
+                </ul>
+            </div>
+            <div class="mt-5" id="footer">
+                <h5 class="fs-5 fw-normal">Support</h5>
+                <ul class="mt-3">
+                    <li><a href="#" class="card-link ">About</a></li>
+                    <li> <a href="#" class="card-link ">Products</a></li>
+                    <li> <a href="#" class="card-link ">Pricing</a></li>
+                    <li> <a href="#" class="card-link ">Referal Programme</a></li>
+                    <li> <a href="#" class="card-link ">Career</a></li>
+                    <li> <a href="#" class="card-link ">Zerodha.tech</a></li>
+                    <li> <a href="#" class="card-link ">Press & media</a></li>
+                    <li> <a href="#" class="card-link ">Zerodha Cares(CSR)</a></li>
+                </ul>
+            </div>
+
+            <div class="mt-5" id="footer">
+                <h5 class="fs-5 fw-normal">Account</h5>
+                <ul class="mt-3">
+                    <li><a href="#" class="card-link ">Open an account</a></li>
+                    <li> <a href="#" class="card-link ">Fund transfer</a></li>
+                    <li> <a href="#" class="card-link ">60 day challenge</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class=" container mt-5">
+            <p class="text-secondary" style="font-size: 12px;">
+                Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.: INZ000031633 CDSL: Depository
+                services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading
+                through
+                Zerodha
+                <br>
+                Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration no.: INZ000038238 Registered Address: Zerodha
+                Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
+                Bengaluru -
+                <br>
+                560078, Karnataka, India. For any complaints pertaining to securities broking please write to
+                <span><a href=""> complaints@zerodha.com</a></span>,for DP related to <span><a href="">
+                        dp@zerodha.com</a></span>,Please ensure you carefully read the Risk Disclosure Document as
+                <br>
+                prescribed by SEBI | ICF
+            </p>
+            <p class="text-secondary" style="font-size: 12px;">
+
+                Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for
+                filing
+                complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
+                Communication,
+                Speedy
+                <br>redressal of the grievances
+            </p>
+            <p class="text-secondary" style="font-size: 12px;">
+                Investments in securities market are subject to market risks; read all the related documents
+                carefully
+                before investing.
+            </p>
+            <p class="text-secondary" style="font-size: 12px;">
+                Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of
+                pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number
+                with
+                your stock broker /
+                <br>
+                depository participant and receive OTP directly from depository on your e-mail and/or mobile number
+                to
+                create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by
+                NSDL/CDSL
+                <br>every month.
+            </p>
+            <p class="text-secondary" style="font-size: 12px;">
+                "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your
+                stock
+                brokers. Receive information of your transactions directly from Exchange on your mobile/email at the
+                end
+                of the day. <br>
+                Issued in the interest of investors. KYC is one time exercise while dealing in securities markets -
+                once
+                KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not
+                undergo
+                the same
+                <br>
+                process again when you approach another intermediary." Dear Investor, if you are subscribing to an
+                IPO,
+                there is no need to issue a cheque. Please write the Bank account number and sign the IPO
+                application
+                form to
+                <br>
+                authorize your bank to make payment in case of allotment. In case of non allotment the funds will
+                remain
+                in your bank account. As a business we don't give stock tips, and have not authorized anyone to
+                trade on
+                behalf of
+                <br>
+                others. If you find anyone claiming to be part of Zerodha and offering such services, please
+                <span><a href="">create a ticket here</a></span>.
+            </p>
+        </div>
+        <div class="container text-center mt-2" id="lastfooter">
+            <a href="">NSE</a>
+            <a href="">BSE</a>
+            <a href="">MCX</a>
+            <a href="">Terms & condition</a>
+            <a href="">Policies & procedure</a>
+            <a href="">Policies & procedure</a>
+            <a href="">Disclosure</a>
+        </div>
+    </div>
+
+    <!-- end of footer  -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

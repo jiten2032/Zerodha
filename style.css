@@ -96,3 +96,25 @@ margin-left: 25px;
 #dropdownMenuLink:hover{
     color: black;
 }
+/* Product.html */
+ a{
+    text-decoration: none;
+    /* color: rgb(56, 74, 156); */
+ }
+ a:hover{
+     color: black;
+ }
+ #productLinks{
+     color: rgb(68, 70, 223);
+     font-size: 17px;
+ }
+#productLinks:hover{
+    color: black;
+}
+#productbtn:hover{
+    background-color: black;
+}
+#ProductImg a{
+
+   padding: 50px; 
+}
