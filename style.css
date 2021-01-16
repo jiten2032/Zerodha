@@ -97,11 +97,11 @@ margin-left: 25px;
     color: black;
 }
 /* Product.html */
- a{
+ #Productpage a{
     text-decoration: none;
     /* color: rgb(56, 74, 156); */
  }
- a:hover{
+ #Productpage a:hover{
      color: black;
  }
  #productLinks{
@@ -117,4 +117,16 @@ margin-left: 25px;
 #ProductImg a{
 
    padding: 50px; 
+}
+#productbtn{
+background-color: rgb(56, 126, 209);
+
+}
+/* Pricing.html */
+#Pricingpage a{
+    text-decoration: none;
+    
+ }
+ #Pricingpage a:hover{
+    color: black;
 }
