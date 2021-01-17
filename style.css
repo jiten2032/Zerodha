@@ -125,8 +125,38 @@ background-color: rgb(56, 126, 209);
 /* Pricing.html */
 #Pricingpage a{
     text-decoration: none;
-    
+  font-family:sans-serif
  }
  #Pricingpage a:hover{
     color: black;
 }
+/* Support.html */
+#supportlinks a{
+    color: white;
+    font-size: 17px;
+    text-decoration: underline;
+text-underline-position:under ;
+padding: 15px;
+font-weight: normal;
+
+
+
+}
+
+#secondcolom h5 a {
+text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+#secondcolom li {
+    
+        color: white;
+        font-weight: normal;
+    
+    }
+    #secondcolom li a{
+    font-size: 18px;
+        color: white;
+        font-weight: normal;
+        line-height: 50px;
+    }
