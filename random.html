@@ -1,45 +1,248 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <title>Support</title>
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"
-       data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
-               <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light ">
+        <div class="container">
+            <a class="navbar-brand " href="index.html">
+                <img src="Images/logo.svg" alt="" width="130" height="40" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mymenu"
+                aria-controls="mymenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mymenu">
+                <ul class="navbar-nav" id="navitems">
+
+                    <li class="nav-item"><a href="About.html" class="nav-link" id="navlinkcolor">About</a></li>
+                    <li class="nav-item"><a href="Product.html" class="nav-link" id="navlinkcolor">Product</a></li>
+                    <li class="nav-item"><a href="Pricing.html" class="nav-link " id="navlinkcolor">Pricing</a>
+                    </li>
+                    <li class="nav-item"><a href="Support.html" class="nav-link active" id="navlinkcolor">Support</a>
+                    </li>
+                    <li class="nav-item"><button class="btn btn-primary " type="button" id="buttomcolor">Sign
+                            up</button></li>
+                </ul>
+            </div>
+
+            <div class="nav-item dropdown d-none d-xxl-block d-xl-block d-md-block " id="menu-area">
+                <a type="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+                    style="color: black;">
+
+                    <i style='font-size:19px' class='fas '>&#xf0c9;</i>
+                </a>
+
+                <div class="dropdown-menu  " id="mega-area" aria-labelledby="navbarDropdown">
+                    <div class="row">
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/kite-logo.svg" alt="" width="40"
+                                            height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">Kite</a></li>
+                                <li><a class="dropdownitem" href="#">Trading Platform</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/console.svg" alt="" width="40"
+                                            height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">console</a></li>
+                                <li><a class="dropdownitem" href="#">Backoffice</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/kite-connect.svg" alt=""
+                                            width="40" height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">Kite Connect</a></li>
+                                <li><a class="dropdownitem" href="#">Trading APIs</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li> <a class="dropdownitem" href="#"><img src="Images/coin.svg" alt="" width="40"
+                                            height="40"></a></li>
+                                <li><a class="dropdownitem" href="#">Coin</a></li>
+                                <li><a class="dropdownitem" href="#">Mutual funds</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="dropdownbar">
+                        <div class="col-3">
+                            <h5>Utilities</h5>
+                            <ul>
+                                <li><a class="dropdownitem" href="">Brerage calculator</a></li>
+                                <li><a class="dropdownitem" href="">Margin calculator</a></li>
+                                <li><a class="dropdownitem" href="">Holiday calender</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h5>Updates</h5>
+                            <ul>
+                                <li><a class="dropdownitem" href="">Z-Connect blog</a></li>
+                                <li><a class="dropdownitem" href="">Pulse News</a></li>
+                                <li><a class="dropdownitem" href="">Circulars/Bulletin</a></li>
+                                <li> <a class="dropdownitem" href="">IPOs</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h5>Education</h5>
+                            <ul>
+                                <li><a class="dropdownitem" href="#"><img src="Images/varsity.png" alt="" width=""
+                                            height=""> </a></li>
+                                <li><a class="dropdownitem" href="">varsity</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-3" id="lastdropdown">
+                            <ul>
+                                <li><a class="dropdownitem" href="#"><img src="Images/tqna.png" alt="" width=""
+                                            height=""> </a></li>
+                                <li><a class="dropdownitem" href="">Trading Q & A</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="container mt-5">
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
+    <div class="container-fluid bg-light mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-5">
+
+                    <img src="Images/logo.svg" class="" width="140" height="18" alt="">
+                    <h5 class=" mt-3">
+                        <i class="material-icons">&#xe0b0;</i>
+                        +91 80 4718 1888
+                    </h5>
+                    <p class="mt-3">© 2010 - 2020, Zerodha Broking Ltd. <br>
+
+                        All rights reserved.</p>
+                    <div>
+                        <a href="#"><i style='font-size:24px;padding: 15px;' class='fab'>&#xf099;</i></a>
+                        <a href="#"><i style='font-size:24px;padding: 15px;' class='fab'>&#xf082;</i></a>
+                        <a href="#"> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf16d;</i></a>
+                        <a href="#"> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf0e1;</i></a>
+                        <a href="#"> <i style='font-size:24px;padding: 15px;' class='fab'>&#xf2c6;</i></a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 mt-5" id="footer">
+                    <h5 class="fs-5 fw-normal">Company</h5>
+                    <ul class="mt-3">
+                        <li><a href="#" >Contact</a></li>
+                        <li> <a href="#" class="card-link ">Support Portal</a></li>
+                        <li> <a href="#" class="card-link ">Z-Connect blog</a></li>
+                        <li> <a href="#" class="card-link ">List of charghes</a></li>
+                        <li> <a href="#" class="card-link ">Download & resources</a></li>
+                        <li> <a href="#" class="card-link ">Videos</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-5" id="footer">
+                    <h5 class="fs-5 fw-normal">Support</h5>
+                    <ul class="mt-3">
+                        <li><a href="#" class="card-link ">About</a></li>
+                        <li> <a href="#" class="card-link ">Products</a></li>
+                        <li> <a href="#" class="card-link ">Pricing</a></li>
+                        <li> <a href="#" class="card-link ">Referal Programme</a></li>
+                        <li> <a href="#" class="card-link ">Career</a></li>
+                        <li> <a href="#" class="card-link ">Zerodha.tech</a></li>
+                        <li> <a href="#" class="card-link ">Press & media</a></li>
+                        <li> <a href="#" class="card-link ">Zerodha Cares(CSR)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mt-5" id="footer">
+                    <h5 class="fs-5 fw-normal">Account</h5>
+                    <ul class="mt-3">
+                        <li><a href="#" class="card-link ">Open an account</a></li>
+                        <li> <a href="#" class="card-link ">Fund transfer</a></li>
+                        <li> <a href="#" class="card-link ">60 day challenge</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <!-- end of footer  -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

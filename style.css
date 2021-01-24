@@ -4,9 +4,16 @@
     color: blue;
     transition: .5s;
 }
+#buttomcolor{
+    background-color: rgb(56, 126, 209);
+    padding: 5px 22px;
+    font-size: 15px;
+    font-weight: 500;
+}
 #buttomcolor:hover{background-color: black;}
 #menu-area{
     position: static;
+   
 }
 #mega-area{
 position: absolute;
