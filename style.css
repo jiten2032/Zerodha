@@ -61,7 +61,7 @@ flex-wrap: wrap;
 }
 #footer li{
 list-style-type: none;
-
+padding:5px 0px; 
 }
 #footer h5{
 margin-left: 25px;
@@ -70,6 +70,8 @@ margin-left: 25px;
 #footer li a{
     color: dimgray;
   font-weight: light;
+  font-size: 17px;
+  text-decoration: none;
 }
 #footer li a:hover{
     color: blue;
@@ -159,4 +161,21 @@ text-decoration: none;
         color: white;
         font-weight: normal;
         line-height: 50px;
+    }
+    #supportbody li{
+        list-style-type: none;
+        padding: 8px 0px;
+    }
+    #supportbody h5 a{
+        text-decoration: none;
+        color: rgb(68,68,68);
+
+    }
+    #supportbody1 li{
+        padding: 8px 0px;
+        list-style-type: none;
+    }
+    #supportbody1 h5 a{
+        text-decoration: none;
+        color: rgb(68,68,68);
     }
