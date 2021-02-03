@@ -186,3 +186,12 @@ text-decoration: none;
         text-decoration: none;
         color: rgb(68,68,68);
     }
+
+    /* open-account.html */
+    #openaccountbtn{
+        background-color: rgb(56, 126, 209);
+        padding: 6px 33px;
+    }
+    #openaccountbtn:hover{
+        background-color: black;   
+    }
